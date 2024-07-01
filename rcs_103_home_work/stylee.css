@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbarSection {
+    background-color: rgba(44, 62, 80);
+    height: 105px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    padding-right: 150px;
+    position: sticky;
+}
+
+#navHeader {
+    color: white;
+    margin-left: 3cm;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.listItems {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.item:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: white;
+}
+
+.hero-section .photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hero-section h1 {
+    margin: 20px 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider-line {
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.divider-line {
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.divider-icon {
+    font-size: 3em;
+}
+
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#portfolio h2, #about h2, #contact h2 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.divider-line2 {
+    width: 120px;
+    height: 4px;
+    background-color: black;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+}
+
+.portfolio-item {
+    width: 500px;
+    height: 300px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 0.02cm;
+    margin-right: 0.02cm;
+    
+    
+}
+
+.portfolio-item img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#about {
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+#about p {
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+#about button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#about button:hover {
+    background-color: white;
+    color: rgb(5, 169, 157);
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-section ul li {
+    display: inline;
+}
+
+.footer-section ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-section a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    background-color: #233140;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #bbb;
+}
